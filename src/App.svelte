@@ -34,7 +34,7 @@
       let closest = closestLocation(targetLocation, resultList);
       return closest.contacto;
     } catch (error) {
-      console.error(error);
+      throw new Error(error)
     }
   }
 
@@ -64,7 +64,7 @@
     try {
       return await pb.collection("Bombeiros").getFullList();
     } catch (error) {
-      console.log("error" + error);
+      throw new Error(error)
     } finally {
       console.log("lista do serviço");
       console.log(pb.collection("Bombeiros").getFullList());

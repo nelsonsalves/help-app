@@ -1,6 +1,6 @@
 <script>
     export let size = 25;
-    export let speed = 150;
+    export let speed = 750;
     export let color = 'rgba(0,0,0,0.4)';
     export let thickness = 2;
     export let gap = 40;
@@ -8,13 +8,14 @@
   
     let dash;
     $: dash = 2 * Math.PI * radius * (100 - gap) / 100
-</script>
+  </script>
   
   <svg
     height="{size}"
     width="{size}"
     style="animation-duration:{speed}ms;"
     class="svelte-spinner"
+    viewbox="0 0 32 32"
   >
     <circle
       role="presentation"

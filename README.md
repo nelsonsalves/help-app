@@ -52,14 +52,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+This is a simple project where the user geolocation is used to return the phone number of the service selected by the user.
+Currently two services are supported: firefighters and police. The data is stored in a pocketbase instance that can be stored locally or
+as a service using providers like pockethost. The data was manually fetched from several websites to compile the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +86,10 @@ This project assumes you have npm installed in your system.
 2. Install NPM packages
    ```sh
    npm install
+   ```
+3. Setup pocketbase instance downloading the binary from [here](https://pocketbase.io/). Extract the binary to the root of the repo and in that folder run
+   ```sh
+   ./pocketbase serve
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

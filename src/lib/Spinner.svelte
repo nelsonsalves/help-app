@@ -15,7 +15,7 @@
     width="{size}"
     style="animation-duration:{speed}ms;"
     class="svelte-spinner"
-    viewbox="0 0 32 32"
+    viewBox="0 0 32 32"
   >
     <circle
       role="presentation"

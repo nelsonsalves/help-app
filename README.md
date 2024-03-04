@@ -132,15 +132,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/nelsonsalves/help-app.svg?style=for-the-badge
 [contributors-url]: https://github.com/nelsonsalves/help-app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/nelsonsalves/help-app.svg?style=for-the-badge
 [forks-url]: https://github.com/nelsonsalves/help-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/nelsonsalves/help-app.svg?style=for-the-badge
 [stars-url]: https://github.com/nelsonsalves/help-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/nelsonsalves/help-app.svg?style=for-the-badge
 [issues-url]: https://github.com/nelsonsalves/help-app/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/nelsonsalves/help-app.svg?style=for-the-badge
 [license-url]: https://github.com/nelsonsalves/help-app/blob/master/LICENSE.txt
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/

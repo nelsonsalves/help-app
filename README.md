@@ -1,47 +1,146 @@
-# Svelte + Vite
+<a name="readme-top"></a>
 
-This template should help get you started developing with Svelte in Vite.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## Recommended IDE Setup
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+  <h3 align="center">Help Me App</h3>
 
-## Need an official Svelte framework?
+  <p align="center">
+    A simple map that uses browser geolocation to get the phone number of the nearest selected service
+    <br />
+    <br />
+    <a href="https://github.com/nelsonsalves/help-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/nelsonsalves/help-app/issues">Request Feature</a>
+  </p>
+</div>
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-## Technical considerations
 
-**Why use this over SvelteKit?**
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should implement DRY principles to the rest of your life :smile:
 
-**Why include `.vscode/extensions.json`?**
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Why enable `checkJs` in the JS template?**
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
 
-**Why is HMR not preserving my local component state?**
+### Built With
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+* [![Svelte][Svelte.dev]][Svelte-url]
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Please follow the following instructions to install the project in your computer
+
+### Prerequisites
+
+This project assumes you have npm installed in your system.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/nelsonsalves/help-app.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Pockethost](https://pockethost.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/nelsonsalves/help-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/nelsonsalves/help-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/nelsonsalves/help-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/nelsonsalves/help-app/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/nelsonsalves/help-app/blob/master/LICENSE.txt
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
